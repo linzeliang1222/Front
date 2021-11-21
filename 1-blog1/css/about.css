@@ -1,0 +1,80 @@
+body {
+	font-size: 14px;
+	background-image: url(../img/background-img1.jpg);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+.content .show .aboutme {
+	width: 110px;
+	position: absolute;
+	display: inline-block;
+	line-height: 40px;
+	font-style: normal;
+	font-size: 20px;
+	left: 50%;
+	top: 230px;
+	margin-left: -230px;
+	float: left;
+	padding: 10px 0;
+	border: 5px dotted skyblue;
+	border-bottom-left-radius: 12px;
+	border-top-left-radius: 12px;
+	color: #8470FF;
+	padding-right: 6px;
+	text-align: right;
+}
+.content .show ul {
+	position: absolute;
+	display: none;
+	line-height: 40px;
+	padding: 10px 0;
+	width: 350px;
+	font-size: 20px;
+	color: 	limegreen;
+	border-top: 5px dotted skyblue;
+	border-bottom: 5px dotted skyblue;
+	border-right: 5px dotted skyblue;
+	top: 230px;
+	left: 50%;
+	margin-left: -120px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	opacity: 0.8;
+}
+.content .show ul li {
+	display: block;
+	text-align: center;
+}
+.content .show:hover ul{
+	display: block;
+}
+.content .show:hover .aboutme {
+	border-right: 0;
+}
+
+
+.content {
+	min-height: 100%;
+    padding-bottom:20px; /* 需要 >= footer的height值 */
+}
+
+
+.footer {
+	position: relative;
+	margin-top: -10px;
+	height: 50px;
+	color: #7e7e7e;
+	background: rgba(155, 226, 220, 0.2);
+	text-align: center;
+}
+.footer p {
+	letter-spacing: 10px;
+	line-height: 25px;
+}
+.footer b {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 25px;
+}

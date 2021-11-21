@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+    overflow: -moz-hidden-unscrollable;
+    height: 100%;
+}
+
+body {
+    -ms-overflow-style: none;
+    height: 100%;
+	width: calc(100vw + 18px);
+	overflow: auto;
+	font-family: '幼圆';
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+th, td {
+	border: 1px solid #2FC28C;
+	border-collapse: collapse;
+	background: rgba(145, 236, 250, 0.3);
+	border-radius: 10px;
+}
+
+td {
+	width: 90px;
+	height: 40px;
+	color: #f2afff;
+}
+
+th {
+	font-size: 16px;
+	color: #ABE969;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>写文章</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/write.css">
+    <link rel="stylesheet" href="../font/iconfont.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../img/icon.png" />
+    <style type="text/css"> nav .lt .icon-sousuo{color: #ffffff;} nav .lt .icon-sousuo:hover {color: #ff6700;} </style>
+    <script src="../js/fun.js"></script>
+</head>
+<body>
+    <!-- 顶部导航S -->
+    <nav>
+        <div class="container">
+            <div class="lt">
+                <a href="./enterPage.html">首页</a>
+                <span>|</span>
+                <a href="./write.html">写文章</a>
+                <span>|</span>
+                <a href="./luntan.html">论坛</a>
+                <span>|</span>
+                <a href="./answer.html">问答</a>
+                <span>|</span>
+                <a href="#" class="download">
+                    下载
+                    <div class="down-box">
+                        <b></b>
+                        <img src="../img/download.png">
+                    </div>
+                </a>
+                <form action="" method="get">
+                    <input type="text" placeholder="请输入要搜索的内容" class="sousuo">
+                    <a href="new.html" class="iconfont icon-sousuo"></a>
+                </form>
+            </div>
+            <div class="gt">
+                <a href="./sixin.html" class="in">私信(0)</a>
+                <span>|</span>
+                <div class="list">
+                    <span>你好，Admin</span>
+                    <ul>
+                        <li><a href="https://linzedian.github.io" target="_blank">我的主页</a></li>
+                        <li><a href="./message.html">个人中心</a></li>
+                        <li><a href="./photo.html">我的相册</a></li>
+                        <li><a href="./settings.html">账号设置</a></li>
+                    </ul>
+                </div>
+                <span>|</span>
+                <a href="../index.html" class="in">注销</a>
+            </div>
+        </div>
+    </nav>
+    <!-- 顶部导航E -->
+
+    <!-- 内容S -->
+    <article>
+        <div class="container">
+            <form action="./new.html" class="txt">
+                <h1>编辑</h1>
+                <div class="title">
+                    <input type="text" placeholder="请输入文章标题" required="required">
+                </div>
+                <div class="content">
+                    <textarea name="" required="required" placeholder="编辑文章内容..."></textarea>
+                </div>
+                <div class="sort">
+                    <label>
+                        &nbsp;&nbsp;&nbsp;&nbsp;分类专栏：
+                        <select name="" id="">
+                            <option value="0" disabled selected>请选择</option>
+                            <option value="Java">Java</option>
+                            <option value="Python">Python</option>
+                            <option value="C">C</option>
+                            <option value="SQL">SQL</option>
+                            <option value="Linux">Linux</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="author">
+                    <label for="">&nbsp;&nbsp;&nbsp;&nbsp;作者：<input type="text" required="required" placeholder="请输入作者"></label>
+                </div>
+                <div class="submit">
+                    <a href="./new.html"><input type="submit" value="发布"></a>
+                </div>
+            </form>
+        </div>
+    </article>
+    <!-- 内容E -->
+
+    <!-- 返回顶部S -->
+    <p onclick="topFunction()" id="backTop"><span class="iconfont icon-backtop"></span></p>
+    <!-- 返回顶部E -->
+
+    <!-- 底部S -->
+    <footer>
+        <div class="container" style="text-align: center; padding-bottom: 20px; padding-top: 30px">
+            <p class="foot">Copyright © 2020 林泽良</p>
+        </div>
+    </footer>
+    <!-- 底部E -->
+</body>
+</html>

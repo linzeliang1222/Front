@@ -1,0 +1,146 @@
+.container {
+	width: 1150px;
+	margin: 0 auto;
+}
+
+
+.nav {
+	width: 100%;
+	height: 60px;
+	background-color: #8f8f8f;
+	background: rgba(255, 255, 255, 0.2);
+	position: fixed;
+	font-size: 18px;
+	color: #000000;
+}
+
+.nav .left {
+	line-height: 60px;
+	font-weight: bold;
+	font-size: 28px;
+	float: left;
+}
+
+.nav .left i {
+	font-size: 28px;
+}
+
+.nav .right {
+	float: right;
+}
+
+.nav .right .font-setting {
+	float: right;
+	text-align: center;
+	width: 100px;
+}
+
+.nav .right .font-setting i {
+	line-height: 60px;
+	font-size: 28px;
+	color: #fdc0d7;
+	top: -5px;
+}
+
+.nav .right .font-setting .list {
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	top: 90px;
+	font-size: 28px;
+	line-height: 30px;
+	box-shadow: 0 6px 10px rgba(0, 0, 0, 0.10);
+	background: rgba(255, 255, 255, 0.2);
+	padding-bottom: 12px;
+	display: none;
+}
+
+.nav .right .font-setting li {
+	line-height: 50px;
+}
+
+.nav .right .font-setting:hover i {
+	color: #6cd3ff;
+}
+
+.nav .right .font-setting:hover .list {
+	display: block;
+}
+
+.nav .right input {
+	width: 80px;
+	height: 40px;
+	border-width: 0px;
+	border-radius: 3px;
+	background: #6cd3ff;
+	cursor: pointer;
+	outline: none;
+	font-family: Microsoft YaHei;
+	color: white;
+	font-size: 16px;
+}
+
+.nav .right input:hover {
+	background: #92d9ff;
+}
+
+
+.nav .message {
+	float: right;
+	margin-right: 10px;
+}
+
+.nav .message .icon-shouye {
+	font-size: 24px;
+}
+
+.nav .message li {
+	display: inline-block;
+	line-height: 54px;
+	font-size: 20px;
+	font-weight: 500;
+	padding: 0 20px;
+	width: 60px;
+	text-align: center;
+}
+
+.nav .message .zhuye {
+	display: inline-block;
+	border-bottom: 4px solid #e2b6fb;
+	width: 60px;
+}
+
+.nav .message .xiangce {
+	border-bottom: 4px solid #abe969;
+}
+
+.nav .message .gks {
+	border-bottom: 4px solid #91d2f8;
+}
+
+.nav .message .about {
+	border-bottom: 4px solid #fdc89b;
+}
+
+.nav .message .classTable {
+	border-bottom: 4px solid #a1fac5;
+}
+
+.nav .message .zhuye:hover {
+	color: #e2b6fb;
+}
+
+.nav .message .xiangce:hover {
+	color: #abe969;
+}
+
+.nav .message .gks:hover {
+	color: #91d2f8;
+}
+
+.nav .message .classTable:hover {
+	color: #a1fac5;
+}
+
+.nav .message .about:hover {
+	color: #fdc89b;
+}

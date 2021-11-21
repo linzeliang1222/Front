@@ -1,0 +1,200 @@
+body {
+    font-size: 16px;
+    color: #000000;
+    background-color: #eaeaea;
+}
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+nav {
+    height: 50px;
+    background-color: #333333;
+}
+nav a {
+    color: #b0b0b0;
+    display: inline-block;
+}
+nav a:hover {
+    color: #ffffff;
+}
+nav span {
+    color: #423c37;
+    padding: 0 5px  ;
+}
+nav .lt {
+    float: left;
+    line-height: 50px;
+    margin-left: 20px;
+}
+nav .gt {
+    float: right;
+    line-height: 50px;
+    display: inline-block;
+    margin-right: 20px;
+}
+nav .gt .list {
+    width: 120px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+nav .gt .list:hover {
+    background-color: #ffffff;
+}
+nav .gt .list:hover a{
+    color: #000000;
+}
+nav .gt .list ul {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+nav .gt .list:hover ul {
+    display: block;
+    z-index: 999;
+}
+nav .gt .list ul li {
+    width: 120px;
+    line-height: 50px;
+}
+nav .gt .list ul a {
+    color: #000000;
+    display: block;
+}
+nav .gt .list span {
+    cursor: default;
+    color: #b0b0b0;
+}
+nav .gt .list:hover span {
+    color: #ff6700;
+}
+nav .gt .list a:hover {
+    color: #ff6700;
+}
+nav .gt .in:hover {
+    color: #ff7417;
+}
+nav .lt .download {
+    position: relative;
+    z-index: 999;
+}
+nav .lt .download .down-box {
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;
+    width: 120px;
+    height: 120px;
+    background-color: #ffffff;
+    text-align: center;
+    display: none;
+}
+nav .lt .download .down-box b {
+    width: 24px;
+    height: 10px;
+    background-image: url(../img/traingle.png);
+    position: absolute;
+    top: -7px;
+    left: 50%;
+    margin-left: -12px;
+}
+nav .lt .download .down-box img {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+nav .lt .download:hover .down-box {
+    display: block;
+}
+nav .lt form {
+    float: right;
+    margin-left: 50px;
+    width: 340px;
+}
+nav .lt .sousuo {
+    float: left;
+    position: absolute;
+    top: 9px;
+    background-color: rgba(0, 0, 0, 0.29);
+    height: 30px;
+    width: 300px;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    color: #FFFFFF;
+    outline: none;
+}
+nav .lt .icon-sousuo {
+    float: right;
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+article .container{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.40);
+    background-color: #ffffff;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+article .list ul {
+    margin: 0 40px;
+}
+article .list li {
+    border-bottom: 1px solid #eed5b6;
+}
+article .list li:last-child {
+    border: 0;
+}
+article .list a {
+    color: #7f7979;
+}
+article .list a:hover {
+    color: #ff6700;
+}
+article .list .top {
+    padding: 15px 0;
+}
+article .list .top span {
+    color: #b31f1f;
+    font-size: 34px;
+    float: left;
+}
+article .list .top h1 {
+    font-size: 26px;
+}
+article .list .bottom p {
+    font-size: 14px;
+    text-indent: 3.5em;
+    padding-bottom: 10px;
+}
+article .list .bottom i {
+    font-style: normal;
+    font-size: 12px;
+}
+article .lunbo .lunbo-caroursel {
+    margin: 50px auto;
+}
+
+
+#backTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+#backTop span {
+    font-size: 24px;
+    color: #35cdae;
+}
+#backTop:hover span {
+    color: #2c9781;
+}

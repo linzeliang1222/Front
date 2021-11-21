@@ -1,0 +1,22 @@
+article .container {
+	margin-top: 50px;
+	border-radius: 10px;
+	background-color: #bcdcc5;
+}
+.container .images {
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-left: 16px;
+}
+.container .txt {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 40px;
+	font-family: "幼圆";
+	color: #2c9781;
+}
+.container img {
+	border-radius: 10px;
+	margin: 12px 12px;
+}

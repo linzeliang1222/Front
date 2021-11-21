@@ -1,0 +1,68 @@
+article .txt {
+    margin: 20px 70px;
+    padding: 20px 40px;
+    border: 3px solid #8e8e8e;
+    border-radius: 10px;
+}
+article .txt h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+article .txt .title input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border: 0;
+    border-radius: 6px;
+    outline: none;
+    background-color: #e7e7e7;
+}
+article .txt .content textarea {
+    resize: none;
+    width: 100%;
+    height: 600px;
+    font-size: 14px;
+    border: 0;
+    border-radius: 6px;
+    outline: none;
+    background-color: #e7e7e7;
+}
+article .txt .sort {
+    margin: 10px 0;
+}
+article .txt .sort select {
+    height: 30px;
+    width: 100px;
+    border: 1px solid rgba(153, 153, 142, 0.77);
+    outline: none;
+}
+article .txt .sort select:hover {
+    cursor: pointer;
+}
+article .txt .author {
+    margin: 10px 0;
+}
+article .txt .author input {
+    border: 0;
+    outline: none;
+    height: 30px;
+    border-radius: 6px;
+    background-color: #e7e7e7;
+}
+article .txt .submit {
+    text-align: center;
+}
+article .txt .submit input {
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    border-radius: 6px;
+    background-color: #ff9352;
+}
+article .txt .submit input:hover {
+    background-color: #ff6e0f;
+}

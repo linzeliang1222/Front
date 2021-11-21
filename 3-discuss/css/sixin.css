@@ -1,0 +1,74 @@
+article .container {
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #fff8f0;
+}
+article .msg {
+    margin: 100px 150px;
+    height: 532px;
+}
+article .msg .lt {
+    width: 260px;
+    height: 500px;
+    float: left;
+}
+article .msg .lt .top {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    border-top-left-radius: 10px;
+    background-color: #2e2e2e;
+}
+article .msg .lt .top img {
+    width: 46px;
+    height: 46px;
+    border-radius: 100%;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+article .msg .lt .top h1 {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    color: #fff;
+    font-weight: normal;
+}
+article .msg .lt .top a {
+    color: #c9c9c9;
+    float: right;
+    font-size: 40px;
+    line-height: 60px;
+}
+article .msg .lt .top a:hover {
+    color: #fff;
+}
+article .msg .lt .bottom {
+    width: 100%;
+    height:440px;
+    border-bottom-left-radius: 10px;
+    background-color: #3d3d3d;
+}
+article .msg .lt .bottom h1 {
+    line-height: 440px;
+    font-size: 16px;
+    color: #59665f;
+    font-weight: normal;
+    text-align: center;
+}
+
+article .msg .gt {
+    width: 535px;
+    height: 500px;
+    float: right;
+    background-color: #eeeeee;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+article .msg .gt h1 {
+    font-size: 16px;
+    color: #59665f;
+    font-weight: normal;
+    text-align: center;
+    line-height: 500px;
+}

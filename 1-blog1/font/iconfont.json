@@ -1,0 +1,30 @@
+{
+  "id": "1874694",
+  "name": "homework",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "10262050",
+      "name": "设 置",
+      "font_class": "shezhi",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "1638357",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "11983523",
+      "name": "blogger",
+      "font_class": "blogger",
+      "unicode": "ea08",
+      "unicode_decimal": 59912
+    }
+  ]
+}

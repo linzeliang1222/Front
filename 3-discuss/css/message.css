@@ -1,0 +1,53 @@
+article .container {
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #c9eae7;
+}
+article .about {
+    margin: 20px 100px;
+}
+article .about .up h1 {
+    font-size: 35px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #979292;
+}
+article .about .down .down-lt {
+    display: inline-block;
+    margin-left: 20px;
+    width: 220px;
+    height: 200px;
+}
+article .about .down .down-lt img {
+    top: 250px;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+article .about .down .down-gt {
+    display: inline-block;
+    margin-top: 15px;
+    width: 600px;
+    height: 600px;
+}
+article .down-gt .list li {
+    line-height: 35px;
+}
+article .down-gt .list h2 {
+    display: inline-block;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+article .down-gt .list input {
+    float: right;
+    background-color: #7ed493;
+    border: 0;
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 100px;
+}
+article .down-gt .list span {
+    font-weight: bold;
+    font-size: 18px;
+}

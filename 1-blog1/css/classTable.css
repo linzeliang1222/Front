@@ -1,0 +1,63 @@
+body {
+	font-size: 14px;
+	background-image: url(../img/background-img3.jpg);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+.content .blank {
+	border: 0;
+	opacity: 0;
+}
+
+.content .title {
+	display: block;
+	font-size: 28px;
+	color: #2fc28c;
+	margin-bottom: 20px;
+}
+
+
+.content .schedule-single {
+	position: absolute;
+	float: left;
+	margin-top: 90px;
+	z-index: -1;
+	text-align: center;
+}
+
+
+.content .schedule-double {
+	float: right;
+	margin-top: 90px;
+	z-index: -1;
+	text-align: center;
+}
+
+
+.content {
+	min-height: 100%;
+	padding-bottom: 20px; /* 需要 >= footer的height值 */
+}
+
+
+.footer {
+	position: relative;
+	margin-top: -10px;
+	height: 50px;
+	color: #7e7e7e;
+	background: rgba(155, 226, 220, 0.2);
+	text-align: center;
+}
+
+.footer p {
+	letter-spacing: 10px;
+	line-height: 25px;
+}
+
+.footer b {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 25px;
+}

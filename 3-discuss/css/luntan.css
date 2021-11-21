@@ -1,0 +1,35 @@
+article .container {
+    height: 1500px;
+}
+article .box {
+    margin: 30px 50px;
+    height: 600px;
+    background-color: #f6f6f6;
+}
+article .box h1 {
+    line-height: 30px;
+    background-color: #8e8e8e;
+}
+article .box .per {
+    width: 250px;
+    height: 100px;
+    float: left;
+    padding: 20px;
+    margin: 20px;
+    border-bottom: 1px solid #d9d9d9;
+}
+article .box .per h2 {
+    color: #035aff;
+}
+article .box .per h2:hover {
+    text-decoration: underline;
+}
+article .box .per a {
+    display: inline-block;
+    margin: 0 5px;
+    height: 34px;
+}
+article .box .per a:hover {
+    color: #ff6700;
+    text-decoration: underline;
+}

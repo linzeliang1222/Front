@@ -1,0 +1,56 @@
+article .container {
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #ffeedc;
+}
+article .settings {
+    margin: 20px 100px;
+}
+article .settings h1 {
+    font-size: 35px;
+    padding-bottom: 50px;
+}
+article .settings .lt {
+    display: inline-block;
+    float: left;
+    width: 200px;
+    height: 596px;
+    border-right: 1px solid #979292;
+}
+article .settings .lt li {
+    line-height: 50px;
+    text-align: center;
+}
+article .settings .lt li:hover {
+    cursor: pointer;
+    background-color: #eee0ce;
+}
+
+article .settings .gt {
+    display: inline-block;
+    width: 600px;
+    height: 596px;
+}
+article .settings .gt {
+    text-align: center;
+}
+article .settings .gt .txt input {
+    display: block;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    height: 40px;
+    border-radius: 6px;
+    border: 0;
+    background-color: rgba(211, 151, 255, 0.2);
+    width: 300px;
+    font-size: 18px;
+}
+article .settings .gt .txt .btn {
+    margin: 20px 300px;
+    cursor: pointer;
+    width: 100px;
+    background-color: rgba(92, 255, 152, 0.2);
+}
+article .settings .gt .txt .btn:hover {
+    background-color: rgba(92, 255, 152, 0.4);
+}

@@ -1,0 +1,56 @@
+body {
+	font-size: 14px;
+	background-image: url(../img/background-img1.jpg);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+
+.page-middle .lt {
+	width: 110px;
+	position: relative;
+	display: inline-block;
+	line-height: 40px;
+	font-style: normal;
+	font-size: 20px;
+	left: 50%;
+	top: 230px;
+	margin-left: -230px;
+	float: left;
+	padding: 10px 0;
+	border: 5px dotted skyblue;
+	border-radius: 10px;
+	color: #8470FF;
+}
+.page-middle ul {
+	display: none;
+	line-height: 40px;
+	padding: 10px 0;
+	width: 350px;
+	font-size: 20px;
+	color: 	limegreen;
+	background-color: white;
+	border-top: 5px dotted skyblue;
+	border-bottom: 5px dotted skyblue;
+	border-right: 5px dotted skyblue;
+	position: fixed;
+	top: 230px;
+	left: 50%;
+	margin-left: -120px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	opacity: 0.8;
+}
+.page-middle ul li {
+	display: block;
+	text-align: center;
+}
+.page-middle:hover ul{
+	display: block;
+}
+.page-middle:hover .lt {
+	border-left: 5px dotted skyblue;
+	border-top: 5px dotted skyblue;
+	border-bottom: 5px dotted skyblue;
+	border-right: 0;
+}

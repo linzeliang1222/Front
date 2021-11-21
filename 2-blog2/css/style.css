@@ -1,0 +1,134 @@
+body {
+	color: #a2a2a2;
+	background-image: url("../img/background.png");
+	background-position: center;
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+
+.page-top {
+	width: 100%;
+	background-color: #a2a2a2a2;
+	font-size: 18px;
+	height: 60px;
+	position: fixed;
+	opacity: 0.7;
+}
+.page-top .top-lt {
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 60px;
+	float: left;
+}
+.page-top .top-lt i {
+	font-size: 30px;
+	line-height: 30px;
+}
+.page-top .top-lt a {
+	color: #000000;
+}
+
+
+.page-top .top-gt {
+	float: right;
+}
+.page-top .top-gt .setting {
+	line-height: 60px;
+	display: inline-block;
+	right: 10px;
+	float: right;
+	position: relative;
+}
+.page-top .top-gt .setting i {
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	width: 72px;
+	display: inline-block;
+	font-size: 28px;
+	padding: 0 15px;
+	color: #4169E1;
+	text-align: center;
+}
+.page-top .top-gt .setting .list {
+	background-color: #54FF9F;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 102px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	position: absolute;
+	top: 60px;
+	left: 50%;
+	margin-left: -51px;
+	box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+	display: none;
+}
+.page-top .top-gt .setting .list li {
+	line-height: 50px;
+	margin-left: -28px;
+}
+.page-top .top-gt .setting:hover i {
+	color: #ffff00;
+	background-color: #54FF9F;
+}
+.page-top .top-gt .setting:hover .list{
+	display: block;
+}
+.page-top .top-gt input {
+	width: 80px;
+	height: 40px;
+	border-width: 0px;
+	border-radius: 3px; 
+	background: #1E90FF; 
+	cursor: pointer;
+	outline: none;
+	font-family: Microsoft YaHei;
+	color: white;
+	font-size: 17px;
+}
+.page-top .top-gt input:hover {
+	background: #5599FF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page-top .top-gt .message li {
+	display: inline;
+}
+.page-top .top-gt .message {
+	line-height: 60px;
+	margin-right: 14px;
+	float: right;
+}
+.page-top .top-gt .message a {
+	width: 72px;
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 60px;
+	color: 	#4169E1;
+	padding: 0 10px;
+	text-align: center;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.page-top .top-gt .message a:hover{
+	color: #ffff00;
+	background-color: #54FF9F;
+}

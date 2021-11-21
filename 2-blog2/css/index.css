@@ -1,0 +1,36 @@
+.page-middle h1 {
+	color: #221111;
+	right: 50%;
+	position: fixed;
+	margin-right: -50px;
+	top: 200px;
+}
+.page-middle h1:hover {
+	color: #EEEE00;
+	cursor: pointer;
+}
+.page-middle .hello img {
+	position: relative;
+	top: 205px;
+	left: 50%;
+	margin-left: 50px;
+	display: none;
+}
+.page-middle .hello:hover img {
+	display: block;
+}
+.page-middle .header .scroll {
+	position: relative;
+	top: 350px;
+	left: 50%;
+	margin-left: -250px;
+	border-radius: 10px;
+	line-height: 50px;
+}
+
+
+
+
+.page-footer {
+
+}

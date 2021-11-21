@@ -1,0 +1,76 @@
+body {
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+}
+.signin {
+    text-align: center;
+    margin-top: 16%;
+}
+
+.msg {
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+}
+.in {
+    margin: auto;
+    text-align: center;
+}
+.text {
+    border-radius: 8px;
+    border: 1px solid deepskyblue;
+    height: 30px;
+    width: 200px;
+    margin: 6px 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+    color: #ffffff;
+    outline: none;
+}
+.password {
+    border-radius: 8px;
+    border: 1px solid deepskyblue;
+    height: 30px;
+    width: 200px;
+    margin: 6px 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+    color: #ffffff;
+    outline: none;
+}
+label {
+    font-size: 16px;
+}
+.login {
+    margin: 0 auto;
+    font-size: 10px;
+    position: relative;
+    left: 16px;
+}
+a {
+    text-decoration: none;
+    color: #035aff;
+}
+.btn {
+    margin-top: 10px;
+    background-color: aquamarine;
+    font-size: 16px;
+    width: 60px;
+    height: 30px;
+    border-width: 0;
+    border-radius: 6px;
+    outline: none;
+}
+.btn1 {
+    position: relative;
+    left: 6px;
+}
+.btn2 {
+    position: relative;
+    left: 30px;
+}
+.btn:hover {
+    background: #92d9ff;
+    cursor: pointer;
+}

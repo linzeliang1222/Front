@@ -1,0 +1,37 @@
+{
+  "id": "1916566",
+  "name": "web",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "630037",
+      "name": "xiala",
+      "font_class": "xiala",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "351772",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "3376249",
+      "name": "推荐",
+      "font_class": "recommend",
+      "unicode": "e679",
+      "unicode_decimal": 59001
+    },
+    {
+      "icon_id": "1294846",
+      "name": "返回顶部",
+      "font_class": "backtop",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    }
+  ]
+}

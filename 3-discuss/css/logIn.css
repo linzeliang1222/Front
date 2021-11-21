@@ -1,0 +1,106 @@
+body {
+    background-image: url("../img/background.jpg");
+    font-size: 20px;
+}
+.login {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    width: 550px;
+    height: 500px;
+}
+.msg {
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+}
+.phone {
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid deepskyblue;
+    height: 30px;
+    width: 200px;
+    margin: 6px 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    outline: none;
+}
+#yzm {
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid deepskyblue;
+    height: 30px;
+    width: 200px;
+    margin: 6px 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    outline: none;
+}
+.name {
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid deepskyblue;
+    height: 30px;
+    width: 200px;
+    margin: 6px 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    outline: none;
+}
+.text {
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid deepskyblue;
+    height: 30px;
+    width: 200px;
+    margin: 6px 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    outline: none;
+}
+.password {
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid deepskyblue;
+    height: 30px;
+    width: 200px;
+    margin: 6px 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    outline: none;
+}
+.btn {
+    margin-top: 10px;
+    background-color: aquamarine;
+    font-size: 16px;
+    width: 80px;
+    height: 30px;
+    border-width: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    outline: none;
+ }
+.btn1 {
+    background-color: aquamarine;
+    font-size: 14px;
+    margin-left: 4px;
+    width: 80px;
+    height: 35px;
+    border-width: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline;
+}
+.btn:hover {
+    background-color: #64b499;
+}
+.btn2 {
+    position: relative;
+    left: 25px;
+}
+.btn3 {
+    position: relative;
+    left: 25px;
+}
